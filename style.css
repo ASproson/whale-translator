@@ -1,0 +1,49 @@
+html {
+  font-size: 16px;
+  font-family: 'Karla';
+}
+
+h1 {
+  font-size: 4rem;
+  color: #5DADE2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #2EA0EC;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #2EA0EC;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+body {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.whale_container .whale_title, .whale_blurb, .user_text, .user_output {
+  text-align: center;
+}
+
+#user_output_text {
+  font-size: 3rem;
+  color: #5DADE2;
+}
+
+#whale {
+  position: relative;
+  margin-top: 2rem;
+  height: 50%;
+  width: 50%;
+  transition: 1s ease-in;
+  /* visibility: hidden; */
+}

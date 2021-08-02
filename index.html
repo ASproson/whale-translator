@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Whale Speak</title>
+    <link rel="stylesheet" href="style.css">
+    <script async src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="whale_container">
+      <div class="whale_title">
+        <h1>Whale Translator</h1>
+        <div class="whale_blurb">
+          <h2>Welcome to the Whale Translator!</h2>
+          <p>
+            By entering text into the box below our AI will translate
+            it into pitch perfect whale-speak.
+            <br><br>
+            This took decades of serious
+            research, and is not a project to test my looping ability.
+            <br><br>
+            In whale speak there are no consonants and only vowels,
+            exlcuding the letter 'y'.
+            <br><br>
+            Also, a whale's <em>u's</em> and <em>e's</em> are extra long,
+            so they will be doubled!
+          </p>
+        </div>
+      </div>
+      <div class="user_text">
+        Enter text to translate:
+        <br><br>
+        <input type="text" placeholder="Enter your phrase" id="user_input"/>
+        <br><br>
+        <button type="button" id="translate_button">Click submit!</button>
+      </div>
+      <div class="user_output">
+        <h3>High tech whale translation:</h3>
+        <span id="user_output_text"></span>
+      </div>
+    </div>
+
+    <img id="whale" src="whale_talk.jpg" alt="">
+
+  </body>
+</html>
