@@ -9,7 +9,7 @@ Whilst learning loops I came across a 'whale talk' example that focussed on crea
 
 ### Comments & Thought Process
 
-In a previous project I tried really hard to take a user input and immediately return it back to the user, but I was having trouble working out how to do this without sending them to another page. I wanted to keep them on the same page and 'do it live'. This isn't something that many people seem to looking to do, as most results online return the JS alert function, which isn't what I wanted. I wanted to take user text, translate it into whale speak, and then push it straight back to the user all in one go.
+In a previous project I tried really hard to take a user input and immediately return it back to the user, but I was having trouble working out how to do this without sending them to another page. I wanted to keep them on the same page and 'do it live'. This isn't something that many people seem to be looking to do, as most results online return the JS alert function, which isn't what I wanted. I wanted to take user text, translate it into whale speak, and then push it straight back to the user all in one go.
 
 I knew that I had to collect the input into a variable but I had to let the user create the text to capture first. This meant creating a multi-function eventListener to do several things at once:
 
